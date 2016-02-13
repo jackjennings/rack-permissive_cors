@@ -2,6 +2,8 @@
 
 Sometimes you just want anyone to request anything, CORS be damned!
 
+This middleware adds a wildcard CORS header to all requests made to the host application.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -20,6 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
+In your Rackup file or Rack-based app:
 
 ```ruby
 use Rack::PermissiveCors
