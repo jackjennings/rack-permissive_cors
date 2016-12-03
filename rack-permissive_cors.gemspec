@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jack@remote.gd"]
 
   spec.summary       = %q{Rack middleware that allows all requests from any origin}
-  spec.homepage      = "https://github.com/jackjennings/rack-permissive_cors"
+  spec.homepage      = "https://github.com/standard-library/rack-permissive_cors"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
